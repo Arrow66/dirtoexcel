@@ -1,0 +1,21 @@
+{
+  "name": "dir-tree-to-excel",
+  "version": "1.0.0",
+  "description": "creates excel file with direcory tree ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "dirtoexcel": "./index.js"
+  },
+  "dependencies": {
+    "clear": "^0.1.0",
+    "directory-tree": "^2.2.4",
+    "exceljs": "^4.0.1",
+    "inquirer": "^7.2.0"
+  }
+}
